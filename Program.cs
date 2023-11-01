@@ -39,7 +39,7 @@ internal class Program
         Console.WriteLine("[KAPI Launcher] Launching KAPI Modified Roblox Client");
         await Task.Delay(1500);
         LaunchUWPApp(Aumid); // Launch Kapi Client
-        // Exit Client after launched
+        // Exit Launcher after Client launched
     }
     private static async Task<bool> CheckUpdate()
     {
